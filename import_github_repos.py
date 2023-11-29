@@ -6,15 +6,17 @@ import time
 import logging
 
 # GitHub credentials
-username = "PUT_YOUR_GITHUB_USERNAME_HERE" #modify here
-token = "PASTE_YOUR_GENERATED_TOKEN_HERE" #modify here
+username = "PUT_YOUR_GITHUB_USERNAME_HERE"
+token = "PASTE_YOUR_GENERATED_TOKEN_HERE" 
 
 # GitHub API endpoint
-api_endpoint = "https://api.github.com/users/PUT_YOUR_GITHUB_USERNAME_HERE/repos" #modify here
+api_endpoint = "https://api.github.com/users/PUT_YOUR_GITHUB_USERNAME_HERE/repos" 
 
-base_path = "PAESTE_PATH_OF_LOCAL_FOLDER_WHERE_YOU_WANT_TO_IMPORT_YOUR_REPOS" #modify here
+base_path = "PAESTE_PATH_OF_LOCAL_FOLDER_WHERE_YOU_WANT_TO_IMPORT_YOUR_REPOS" 
 
-#**Do not** modify the code below unless you know what changes you want to make: 
+#######################################################################################
+#NOTE: **Do not** modify the code below unless you know what changes you want to make: 
+#######################################################################################
 
 # Set up logging
 logging.basicConfig(filename='clone_repos.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
