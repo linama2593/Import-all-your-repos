@@ -14,4 +14,4 @@ With this python code, now you can import **ALL** your repositories **at once** 
       7. Configure the token how you prefer or how you need it
       8. Once you have the token, you are good to go!
 
-*   Follow the instructions insude the .py file. i put in capital letters the info you need to update in the .py file
+*   Follow the instructions inside the .py file. i put in capital letters the info you need to update in the .py file
